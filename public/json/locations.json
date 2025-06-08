@@ -1,6 +1,6 @@
 [
   {
-    "day": 2,
+    "day": 1,
     "items": [
       {
         "title": "Rose Pizza",
@@ -20,7 +20,7 @@
         "title": "Times Square",
         "time": "11am - 12pm",
         "description": "Take in the neon lights and nonstop energy of Times Square.",
-        "image": "/images/times.jpg",
+        "image": "/images/1.jpg",
         "location": [40.757981748981074, -73.98554216398283]
       },
       {
@@ -61,7 +61,7 @@
     ]
   },
   {
-    "day": 3,
+    "day": 2,
     "items": [
       {
         "title": "The MoMA",
@@ -88,7 +88,7 @@
         "title": "AMNH",
         "time": "12pm - 5pm",
         "description": "Discover dinosaurs and dioramas at the American Museum of Natural History.",
-        "image": "/images/amnh.jpg",
+        "image": "/images/2.jpg",
         "location": [40.78129498226796, -73.97396019862994]
       },
       {
@@ -115,13 +115,13 @@
     ]
   },
   {
-    "day": 4,
+    "day": 3,
     "items": [
       {
         "title": "All American",
         "time": "1pm - 2pm",
         "description": "Bite into classic burgers at All American Drive-In.",
-        "image": "/images/allamerican.jpg",
+        "image": "/images/3.jpg",
         "location": [40.666552268679716, -73.47517848811891]
       },
       {
@@ -148,13 +148,13 @@
     ]
   },
   {
-    "day": 5,
+    "day": 4,
     "items": [
       {
         "title": "The Statue of Liberty",
         "time": "10:30am - 1pm",
         "description": "Ferry out to Liberty Island to tour the Statue of Liberty.",
-        "image": "/images/statue.jpg",
+        "image": "/images/4.jpg",
         "location": [40.68927214747251, -74.04453460179326]
       },
       {
@@ -195,13 +195,13 @@
     ]
   },
   {
-    "day": 6,
+    "day": 5,
     "items": [
       {
         "title": "Sagamore Hill",
         "time": "11am - 1pm",
         "description": "Visit Theodore Roosevelt's Sagamore Hill estate.",
-        "image": "/images/sagamore.jpg",
+        "image": "/images/5.jpg",
         "location": [40.885566202932665, -73.50114424666337]
       },
       {

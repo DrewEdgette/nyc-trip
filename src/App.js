@@ -42,7 +42,7 @@ function App() {
         {/* NEW TOP BAR GOES HERE */}
         <div className="TopBar">
           <button onClick={() => setDay(null)} className="BackButton">← Back</button>
-          <div className="DayTitle">Day {day-1}</div>
+          <div className="DayTitle">Day {day}</div>
         </div>
 
         {/* MAIN CONTENT: MAP + INFO */}

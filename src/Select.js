@@ -1,4 +1,5 @@
-// Select.js
+import React from "react";
+
 function Select({ locations, onSelectDay }) {
   const days = Object.keys(locations);
 
@@ -8,7 +9,9 @@ function Select({ locations, onSelectDay }) {
       <div className="day-grid">
         {days.map((day) => (
           <button key={day} onClick={() => onSelectDay(day)}>
-            Day {day-1}
+            {/* replace with day‑specific thumbnail if you have it */}
+            <img src={`/images/${day}.jpg`} alt={`Day ${day}`} />
+            <span>Day {day}</span>
           </button>
         ))}
       </div>
