@@ -1,0 +1,191 @@
+[
+  {
+    "day": 1,
+    "items": []
+  },
+  {
+    "day": 2,
+    "items": [
+      {
+        "title": "Rose Pizza",
+        "time": "10am",
+        "description": "A classic New York slice at Rose Pizza in Penn Station.",
+        "image": "/images/rose.png",
+        "location": [40.75094708998869, -73.99300035694473]
+      },
+      {
+        "title": "NY Pizza Suprema",
+        "time": "10am",
+        "description": "Compare another legendary slice at NY Pizza Suprema just steps away.",
+        "image": "/images/suprema.jpg",
+        "location": [40.75012574243525, -73.9952053473596]
+      },
+      {
+        "title": "Times Square",
+        "time": "11am",
+        "description": "Take in the neon lights and nonstop energy of Times Square.",
+        "image": "/images/times.jpg",
+        "location": [40.757981748981074, -73.98554216398283]
+      },
+      {
+        "title": "Central Park",
+        "time": "12pm",
+        "description": "Stroll through Central Park's iconic paths and landmarks.",
+        "image": "/images/central.jpg",
+        "location": [40.77392666012159, -73.97100773524947]
+      },
+      {
+        "title": "The Met",
+        "time": "1pm",
+        "description": "Explore 5000 years of art at the Metropolitan Museum of Art.",
+        "image": "/images/met.jpg",
+        "location": [40.779372788400906, -73.96323497818568]
+      },
+      {
+        "title": "9/11 Memorial",
+        "time": "5pm",
+        "description": "Pay your respects at the solemn 9/11 Memorial pools.",
+        "image": "/images/911.jpg",
+        "location": [40.71160612213452, -74.01328441645595]
+      },
+      {
+        "title": "Eataly",
+        "time": "5:30pm",
+        "description": "Browse gourmet Italian markets and grab bites at Eataly.",
+        "image": "/images/eataly.jpg",
+        "location": [40.71024850952682, -74.01172924907951]
+      },
+      {
+        "title": "Pier 25 Mini Golf",
+        "time": "7pm",
+        "description": "End the day with a fun round of mini golf right on the Hudson River.",
+        "image": "/images/golf.jpg",
+        "location": [40.7203229120572, -74.01431708656024]
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "items": [
+      {
+        "title": "The MoMA",
+        "time": "10am",
+        "description": "See modern masterpieces at the Museum of Modern Art."
+      },
+      {
+        "title": "Sal & Carmine's",
+        "time": "11am",
+        "description": "Grab a beloved Upper West Side slice at Sal & Carmine's."
+      },
+      {
+        "title": "Mama's Too!",
+        "time": "11am",
+        "description": "Taste inventive square slices at Mama's Too!."
+      },
+      {
+        "title": "American Museum of Natural History",
+        "time": "12pm",
+        "description": "Discover dinosaurs and dioramas at the American Museum of Natural History."
+      },
+      {
+        "title": "Carmine's",
+        "time": "5pm",
+        "description": "Enjoy family-style Italian classics at Carmine's."
+      },
+      {
+        "title": "Stranger Things: The First Shadow",
+        "time": "7pm",
+        "description": "Experience the Stranger Things prequel live on Broadway."
+      },
+      {
+        "title": "Anita Gelato",
+        "time": "10pm",
+        "description": "Finish with artisanal scoops at Anita Gelato."
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "items": [
+      {
+        "title": "All American",
+        "time": "1pm",
+        "description": "Bite into classic burgers at All American Drive-In."
+      },
+      {
+        "title": "Amityville Horror House",
+        "time": "2pm",
+        "description": "Snap photos of the infamous Amityville Horror House exterior."
+      },
+      {
+        "title": "Ravagh Persian Grill",
+        "time": "6pm",
+        "description": "Savor flavorful kebabs at Ravagh Persian Grill."
+      },
+      {
+        "title": "Movie Night",
+        "time": "7pm",
+        "description": "Wind down the evening with a relaxed movie night."
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "items": [
+      {
+        "title": "Statue of Liberty Tour",
+        "time": "10:30am",
+        "description": "Ferry out to Liberty Island to tour the Statue of Liberty."
+      },
+      {
+        "title": "John's of Bleecker",
+        "time": "1pm",
+        "description": "Eat coal-fired pies at John's of Bleecker Street."
+      },
+      {
+        "title": "Ceres",
+        "time": "2pm",
+        "description": "Will this pizza be as good as Dave Portnoy says?"
+      },
+      {
+        "title": "Chinatown",
+        "time": "3pm",
+        "description": "Explore vibrant streets and shops in Chinatown."
+      },
+      {
+        "title": "Szechuan Mountain House",
+        "time": "5pm",
+        "description": "Challenge your palate with fiery dishes at Szechuan Mountain House."
+      },
+      {
+        "title": "Summit One",
+        "time": "7pm",
+        "description": "Catch sunset views from Summit One Vanderbilt observatory."
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "items": [
+      {
+        "title": "Sagamore Hill Tour",
+        "time": "11am",
+        "description": "Visit Theodore Roosevelt's Sagamore Hill estate."
+      },
+      {
+        "title": "New York Panini",
+        "time": "1pm",
+        "description": "Have a quick panini lunch at New York Panini."
+      },
+      {
+        "title": "Escape Room",
+        "time": "2pm",
+        "description": "Test teamwork with an immersive escape-room game."
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "items": []
+  }
+]

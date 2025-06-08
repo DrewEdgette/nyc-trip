@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Main {
+  width: 90vw;
+  height: 90vh;
+  border-radius: 10px;
+  background-color: #181a1b;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  overflow: hidden;
+}
+
+.Info {
+  background-color: #181a1b;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InfoImage {
+  width: 100%;
+  height: 60%;                /* your fixed box size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ImageContainer {
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.ImageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* 🔥 key: crop + preserve aspect ratio */
+  object-position: center;     /* center the cropped area */
+  display: block;
+  border-radius: 10px;
+}
+
+
+
+
+.InfoText {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;  /* stack vertically */
+  align-items: center;
+}
+
+.TextArea {
+  width: 90%;
+  height: 100%;
+  text-align: left;
+}
+
+.InfoNav {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.InfoNavContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InfoNavContainer > * {
+  flex: 1;
+  display: flex;
+  justify-content: center;  /* centers the button horizontally */
+  align-items: center;      /* centers vertically */
+}
+
+.InfoNavContainer button {
+  width: auto;
+  height: 40%;
 }
