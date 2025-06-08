@@ -18,22 +18,29 @@ function Map({ current }) {
   const zoom = 14;
 
   return (
-    <MapContainer
-      center={[40.75, -73.98]}
-      zoom={zoom}
-      attributionControl={false}
-      zoomControl={false}
-      scrollWheelZoom={true}
-      style={{ height: '100%', width: '50%' }}
-    >
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <Marker position={current.location}>
-        <Popup>
-          {current.title}
-        </Popup>
-      </Marker>
-      <MapFlyTo location={current.location} />
-    </MapContainer>
+    <div className='Map'>
+      <MapContainer
+        center={[40.75, -73.98]}
+        zoom={zoom}
+        attributionControl={false}
+        zoomControl={false}
+        scrollWheelZoom={true}
+        style={{ height: "95%", width: "95%", borderRadius: "10px" }}
+      >
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+
+        {current.location && (
+          <>
+            <Marker position={current.location}>
+              <Popup>
+                {current.title}
+              </Popup>
+            </Marker>
+            <MapFlyTo location={current.location} />
+          </>
+        )}
+      </MapContainer>
+    </div>
   );
 }
 

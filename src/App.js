@@ -2,11 +2,12 @@ import './App.css';
 import 'leaflet/dist/leaflet.css';
 import Map from "./Map";
 import Info from "./Info";
+import Select from "./Select";
 import { useEffect, useState } from "react";
 
 function App() {
   const [locations, setLocations] = useState({});
-  const [day, setDay] = useState(2);
+  const [day, setDay] = useState(null); // null until selected
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -22,37 +23,44 @@ function App() {
       .catch((err) => console.error("Failed to load locations", err));
   }, []);
 
+  const handleSelectDay = (selectedDay) => {
+    setDay(selectedDay);
+    setIndex(0);
+  };
+
   const items = locations[day];
-
-  if (!items) return <div>Loading...</div>;
-  if (items.length === 0) return <div>No items for this day.</div>;
-
-  const current = items[index];
-
-  const handleNext = () => {
-    setIndex(prev => (prev < items.length - 1 ? prev + 1 : prev));
-  };
-
-  const handlePrev = () => {
-    setIndex(prev => (prev > 0 ? prev - 1 : prev));
-  };
-
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='Main'>
-          <Map current={current} />
+  <header className="App-header">
+    {!day ? (
+      <Select locations={locations} onSelectDay={handleSelectDay} />
+    ) : !items ? (
+      <div>No items for this day.</div>
+    ) : (
+      <>
+        {/* NEW TOP BAR GOES HERE */}
+        <div className="TopBar">
+          <button onClick={() => setDay(null)} className="BackButton">← Back</button>
+          <div className="DayTitle">Day {day-1}</div>
+        </div>
+
+        {/* MAIN CONTENT: MAP + INFO */}
+        <div className="Main">
+          <Map current={items[index]} />
           <Info
-            current={current}
+            current={items[index]}
             index={index}
             total={items.length}
-            handlePrev={handlePrev}
-            handleNext={handleNext}
+            handlePrev={() => setIndex(i => (i > 0 ? i - 1 : i))}
+            handleNext={() => setIndex(i => (i < items.length - 1 ? i + 1 : i))}
           />
         </div>
-      </header>
-    </div>
+      </>
+    )}
+  </header>
+</div>
+
   );
 }
 

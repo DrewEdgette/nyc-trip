@@ -1,63 +1,59 @@
 [
   {
-    "day": 1,
-    "items": []
-  },
-  {
     "day": 2,
     "items": [
       {
         "title": "Rose Pizza",
-        "time": "10am",
+        "time": "10am - 11am",
         "description": "A classic New York slice at Rose Pizza in Penn Station.",
         "image": "/images/rose.png",
         "location": [40.75094708998869, -73.99300035694473]
       },
       {
         "title": "NY Pizza Suprema",
-        "time": "10am",
+        "time": "10am - 11am",
         "description": "Compare another legendary slice at NY Pizza Suprema just steps away.",
         "image": "/images/suprema.jpg",
         "location": [40.75012574243525, -73.9952053473596]
       },
       {
         "title": "Times Square",
-        "time": "11am",
+        "time": "11am - 12pm",
         "description": "Take in the neon lights and nonstop energy of Times Square.",
         "image": "/images/times.jpg",
         "location": [40.757981748981074, -73.98554216398283]
       },
       {
         "title": "Central Park",
-        "time": "12pm",
+        "time": "12pm - 1pm",
         "description": "Stroll through Central Park's iconic paths and landmarks.",
         "image": "/images/central.jpg",
         "location": [40.77392666012159, -73.97100773524947]
       },
       {
         "title": "The Met",
-        "time": "1pm",
-        "description": "Explore 5000 years of art at the Metropolitan Museum of Art.",
+        "time": "1pm - 5pm",
+        "description": "Explore over 5000 years of art at the Metropolitan Museum of Art.",
         "image": "/images/met.jpg",
         "location": [40.779372788400906, -73.96323497818568]
       },
       {
         "title": "9/11 Memorial",
-        "time": "5pm",
+        "time": "5pm - 5:30pm",
         "description": "Pay your respects at the solemn 9/11 Memorial pools.",
         "image": "/images/911.jpg",
         "location": [40.71160612213452, -74.01328441645595]
       },
       {
         "title": "Eataly",
-        "time": "5:30pm",
+        "time": "5:30pm - 7pm",
         "description": "Browse gourmet Italian markets and grab bites at Eataly.",
         "image": "/images/eataly.jpg",
         "location": [40.71024850952682, -74.01172924907951]
       },
       {
         "title": "Pier 25 Mini Golf",
-        "time": "7pm",
+        "time": "7pm - 9pm",
         "description": "End the day with a fun round of mini golf right on the Hudson River.",
         "image": "/images/golf.jpg",
         "location": [40.7203229120572, -74.01431708656024]
@@ -69,38 +65,52 @@
     "items": [
       {
         "title": "The MoMA",
-        "time": "10am",
-        "description": "See modern masterpieces at the Museum of Modern Art."
+        "time": "10am - 11am",
+        "description": "See modern masterpieces at the Museum of Modern Art.",
+        "image": "/images/moma.jpg",
+        "location": [40.76135167864946, -73.97767854365812]
       },
       {
         "title": "Sal & Carmine's",
-        "time": "11am",
-        "description": "Grab a beloved Upper West Side slice at Sal & Carmine's."
+        "time": "11am - 12pm",
+        "description": "Grab a beloved Upper West Side slice at Sal & Carmine's.",
+        "image": "/images/salandcarmines.JPG",
+        "location": [40.79838181940843, -73.96943936104682]
       },
       {
         "title": "Mama's Too!",
-        "time": "11am",
-        "description": "Taste inventive square slices at Mama's Too!."
+        "time": "11am - 12pm",
+        "description": "Taste inventive square slices at Mama's Too!.",
+        "image": "/images/mamastoo.png",
+        "location": [40.80083420663419, -73.96767328192229]
       },
       {
-        "title": "American Museum of Natural History",
-        "time": "12pm",
-        "description": "Discover dinosaurs and dioramas at the American Museum of Natural History."
+        "title": "AMNH",
+        "time": "12pm - 5pm",
+        "description": "Discover dinosaurs and dioramas at the American Museum of Natural History.",
+        "image": "/images/amnh.jpg",
+        "location": [40.78129498226796, -73.97396019862994]
       },
       {
         "title": "Carmine's",
-        "time": "5pm",
-        "description": "Enjoy family-style Italian classics at Carmine's."
+        "time": "5pm - 7pm",
+        "description": "Enjoy family-style Italian classics at Carmine's.",
+        "image": "/images/carmines.jpeg",
+        "location": [40.75752654995408, -73.98664966796606]
       },
       {
         "title": "Stranger Things: The First Shadow",
-        "time": "7pm",
-        "description": "Experience the Stranger Things prequel live on Broadway."
+        "time": "7pm - 10pm",
+        "description": "Experience the Stranger Things prequel live on Broadway.",
+        "image": "/images/strangerthings.png",
+        "location": [40.7589265351506, -73.98636833965936]
       },
       {
         "title": "Anita Gelato",
-        "time": "10pm",
-        "description": "Finish with artisanal scoops at Anita Gelato."
+        "time": "10pm - 11pm",
+        "description": "Finish with artisanal scoops at Anita Gelato.",
+        "image": "/images/anita.png",
+        "location": [40.758236987056705, -73.98580584039394]
       }
     ]
   },
@@ -109,23 +119,31 @@
     "items": [
       {
         "title": "All American",
-        "time": "1pm",
-        "description": "Bite into classic burgers at All American Drive-In."
+        "time": "1pm - 2pm",
+        "description": "Bite into classic burgers at All American Drive-In.",
+        "image": "/images/allamerican.jpg",
+        "location": [40.666552268679716, -73.47517848811891]
       },
       {
         "title": "Amityville Horror House",
-        "time": "2pm",
-        "description": "Snap photos of the infamous Amityville Horror House exterior."
+        "time": "2pm - 3pm",
+        "description": "Snap photos of the infamous Amityville Horror House exterior.",
+        "image": "/images/amityville.jpg",
+        "location": [40.66639629466217, -73.41476192862616]
       },
       {
         "title": "Ravagh Persian Grill",
-        "time": "6pm",
-        "description": "Savor flavorful kebabs at Ravagh Persian Grill."
+        "time": "6pm - 7pm",
+        "description": "Savor flavorful kebabs at Ravagh Persian Grill.",
+        "image": "/images/ravagh.jpg",
+        "location": [40.87100914369219, -73.42958834717021]
       },
       {
         "title": "Movie Night",
-        "time": "7pm",
-        "description": "Wind down the evening with a relaxed movie night."
+        "time": "7pm - 10pm",
+        "description": "Wind down the evening with a relaxed movie night.",
+        "image": "/images/movienight.jpg",
+        "location": [40.87279891737, -73.42807561046473]
       }
     ]
   },
@@ -133,34 +151,46 @@
     "day": 5,
     "items": [
       {
-        "title": "Statue of Liberty Tour",
-        "time": "10:30am",
-        "description": "Ferry out to Liberty Island to tour the Statue of Liberty."
+        "title": "The Statue of Liberty",
+        "time": "10:30am - 1pm",
+        "description": "Ferry out to Liberty Island to tour the Statue of Liberty.",
+        "image": "/images/statue.jpg",
+        "location": [40.68927214747251, -74.04453460179326]
       },
       {
         "title": "John's of Bleecker",
-        "time": "1pm",
-        "description": "Eat coal-fired pies at John's of Bleecker Street."
+        "time": "1pm - 2pm",
+        "description": "Eat coal-fired pies at John's of Bleecker Street.",
+        "image": "/images/johns.jpg",
+        "location": [40.73164811038437, -74.0033778824836]
       },
       {
         "title": "Ceres",
-        "time": "2pm",
-        "description": "Will this pizza be as good as Dave Portnoy says?"
+        "time": "2pm - 3pm",
+        "description": "Will this pizza be as good as Dave Portnoy says?",
+        "image": "/images/ceres.jpg",
+        "location": [40.7197168969703, -73.9960791771235]
       },
       {
         "title": "Chinatown",
-        "time": "3pm",
-        "description": "Explore vibrant streets and shops in Chinatown."
+        "time": "3pm - 5pm",
+        "description": "Explore vibrant streets and shops in Chinatown.",
+        "image": "/images/chinatown.jpeg",
+        "location": [40.715706735685615, -73.99706212063867]
       },
       {
         "title": "Szechuan Mountain House",
-        "time": "5pm",
-        "description": "Challenge your palate with fiery dishes at Szechuan Mountain House."
+        "time": "5pm - 7pm",
+        "description": "Challenge your palate with fiery dishes at Szechuan Mountain House.",
+        "image": "/images/mountain.png",
+        "location": [40.72914416682199, -73.98857646324088]
       },
       {
         "title": "Summit One",
-        "time": "7pm",
-        "description": "Catch sunset views from Summit One Vanderbilt observatory."
+        "time": "7pm - 8pm",
+        "description": "Catch sunset views from Summit One Vanderbilt observatory.",
+        "image": "/images/summit.jpg",
+        "location": [40.75280290619689, -73.97872341811768]
       }
     ]
   },
@@ -168,24 +198,26 @@
     "day": 6,
     "items": [
       {
-        "title": "Sagamore Hill Tour",
-        "time": "11am",
-        "description": "Visit Theodore Roosevelt's Sagamore Hill estate."
+        "title": "Sagamore Hill",
+        "time": "11am - 1pm",
+        "description": "Visit Theodore Roosevelt's Sagamore Hill estate.",
+        "image": "/images/sagamore.jpg",
+        "location": [40.885566202932665, -73.50114424666337]
       },
       {
         "title": "New York Panini",
-        "time": "1pm",
-        "description": "Have a quick panini lunch at New York Panini."
+        "time": "1pm - 2pm",
+        "description": "Have a quick panini lunch at New York Panini.",
+        "image": "/images/panini.jpg",
+        "location": [40.87156215134697, -73.42764438783145]
       },
       {
         "title": "Escape Room",
-        "time": "2pm",
-        "description": "Test teamwork with an immersive escape-room game."
+        "time": "2pm - 3pm",
+        "description": "Test teamwork with an immersive escape-room game.",
+        "image": "/images/escape.jpg",
+        "location": [40.67929781195063, -73.47019238192655]
       }
     ]
-  },
-  {
-    "day": 7,
-    "items": []
   }
 ]

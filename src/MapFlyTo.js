@@ -7,7 +7,7 @@ function MapFlyTo({ location, zoom = 17 }) {
   useEffect(() => {
     if (location) {
       map.flyTo(location, zoom, {
-        duration: 1.5,  // seconds
+        duration: 2,  // seconds
         easeLinearity: 0.25,
       });
     }
