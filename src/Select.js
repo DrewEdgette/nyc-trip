@@ -10,7 +10,7 @@ function Select({ locations, onSelectDay }) {
         {days.map((day) => (
           <button key={day} onClick={() => onSelectDay(day)}>
             {/* replace with day‑specific thumbnail if you have it */}
-            <img src={`/images/${day}.jpg`} alt={`Day ${day}`} />
+            <img src={`${process.env.PUBLIC_URL}/images/${day}.jpg`} alt={`Day ${day}`} />
             <span>Day {day}</span>
           </button>
         ))}

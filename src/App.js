@@ -11,7 +11,7 @@ function App() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    fetch("/json/locations.json")
+    fetch(`${process.env.PUBLIC_URL}/json/locations.json`)
       .then((res) => res.json())
       .then((data) => {
         const dayMap = {};
@@ -23,6 +23,7 @@ function App() {
       .catch((err) => console.error("Failed to load locations", err));
   }, []);
 
+
   const handleSelectDay = (selectedDay) => {
     setDay(selectedDay);
     setIndex(0);
@@ -32,34 +33,34 @@ function App() {
 
   return (
     <div className="App">
-  <header className="App-header">
-    {!day ? (
-      <Select locations={locations} onSelectDay={handleSelectDay} />
-    ) : !items ? (
-      <div>No items for this day.</div>
-    ) : (
-      <>
-        {/* NEW TOP BAR GOES HERE */}
-        <div className="TopBar">
-          <button onClick={() => setDay(null)} className="BackButton">← Back</button>
-          <div className="DayTitle">Day {day}</div>
-        </div>
+      <header className="App-header">
+        {!day ? (
+          <Select locations={locations} onSelectDay={handleSelectDay} />
+        ) : !items ? (
+          <div>No items for this day.</div>
+        ) : (
+          <>
+            {/* NEW TOP BAR GOES HERE */}
+            <div className="TopBar">
+              <button onClick={() => setDay(null)} className="BackButton">← Back</button>
+              <div className="DayTitle">Day {day}</div>
+            </div>
 
-        {/* MAIN CONTENT: MAP + INFO */}
-        <div className="Main">
-          <Map current={items[index]} />
-          <Info
-            current={items[index]}
-            index={index}
-            total={items.length}
-            handlePrev={() => setIndex(i => (i > 0 ? i - 1 : i))}
-            handleNext={() => setIndex(i => (i < items.length - 1 ? i + 1 : i))}
-          />
-        </div>
-      </>
-    )}
-  </header>
-</div>
+            {/* MAIN CONTENT: MAP + INFO */}
+            <div className="Main">
+              <Map current={items[index]} />
+              <Info
+                current={items[index]}
+                index={index}
+                total={items.length}
+                handlePrev={() => setIndex(i => (i > 0 ? i - 1 : i))}
+                handleNext={() => setIndex(i => (i < items.length - 1 ? i + 1 : i))}
+              />
+            </div>
+          </>
+        )}
+      </header>
+    </div>
 
   );
 }
