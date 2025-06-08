@@ -5,7 +5,7 @@ function Info({ current, index, total, handlePrev, handleNext }) {
     <div className="Info">
       <div className="InfoImage">
         <div className="ImageContainer">
-          <img src={current.image}/>
+          <img src={`${process.env.PUBLIC_URL}/${current.image}`} />
         </div>
       </div>
 
