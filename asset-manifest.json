@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nyc-trip/static/css/main.f9d29e8e.css",
-    "main.js": "/nyc-trip/static/js/main.04ef39c5.js",
+    "main.js": "/nyc-trip/static/js/main.47910c59.js",
     "index.html": "/nyc-trip/index.html",
     "main.f9d29e8e.css.map": "/nyc-trip/static/css/main.f9d29e8e.css.map",
-    "main.04ef39c5.js.map": "/nyc-trip/static/js/main.04ef39c5.js.map"
+    "main.47910c59.js.map": "/nyc-trip/static/js/main.47910c59.js.map"
   },
   "entrypoints": [
     "static/css/main.f9d29e8e.css",
-    "static/js/main.04ef39c5.js"
+    "static/js/main.47910c59.js"
   ]
 }
