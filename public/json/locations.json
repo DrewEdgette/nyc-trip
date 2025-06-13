@@ -4,35 +4,35 @@
     "items": [
       {
         "title": "Rose Pizza",
-        "time": "10am - 11am",
+        "time": "11am - 12pm",
         "description": "A classic New York slice at Rose Pizza in Penn Station.",
         "image": "/images/rose.png",
         "location": [40.75094708998869, -73.99300035694473]
       },
       {
         "title": "NY Pizza Suprema",
-        "time": "10am - 11am",
+        "time": "11am - 12pm",
         "description": "Compare another legendary slice at NY Pizza Suprema just steps away.",
         "image": "/images/suprema.jpg",
         "location": [40.75012574243525, -73.9952053473596]
       },
       {
         "title": "Times Square",
-        "time": "11am - 12pm",
+        "time": "12pm - 1pm",
         "description": "Take in the neon lights and nonstop energy of Times Square.",
         "image": "/images/1.jpg",
         "location": [40.757981748981074, -73.98554216398283]
       },
       {
         "title": "Central Park",
-        "time": "12pm - 1pm",
+        "time": "1pm - 2pm",
         "description": "Stroll through Central Park's iconic paths and landmarks.",
         "image": "/images/central.jpg",
         "location": [40.77392666012159, -73.97100773524947]
       },
       {
         "title": "The Met",
-        "time": "1pm - 5pm",
+        "time": "2pm - 5pm",
         "description": "Explore over 5000 years of art at the Metropolitan Museum of Art.",
         "image": "/images/met.jpg",
         "location": [40.779372788400906, -73.96323497818568]
@@ -65,28 +65,28 @@
     "items": [
       {
         "title": "The MoMA",
-        "time": "10am - 11am",
+        "time": "11am - 12pm",
         "description": "See modern masterpieces at the Museum of Modern Art.",
         "image": "/images/moma.jpg",
         "location": [40.76135167864946, -73.97767854365812]
       },
       {
         "title": "Sal & Carmine's",
-        "time": "11am - 12pm",
+        "time": "12pm - 1pm",
         "description": "Grab a beloved Upper West Side slice at Sal & Carmine's.",
         "image": "/images/salandcarmines.JPG",
         "location": [40.79838181940843, -73.96943936104682]
       },
       {
         "title": "Mama's Too!",
-        "time": "11am - 12pm",
+        "time": "12pm - 1pm",
         "description": "Taste inventive square slices at Mama's Too!.",
         "image": "/images/mamastoo.png",
         "location": [40.80083420663419, -73.96767328192229]
       },
       {
         "title": "AMNH",
-        "time": "12pm - 5pm",
+        "time": "1pm - 5pm",
         "description": "Discover dinosaurs and dioramas at the American Museum of Natural History.",
         "image": "/images/2.jpg",
         "location": [40.78129498226796, -73.97396019862994]
